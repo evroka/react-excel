@@ -9,7 +9,12 @@
     "semi": "off",
     "object-curly-spacing": "off",
     "comma-dangle": "off",
-    "require-jsdoc": "off"
+    "require-jsdoc": "off",
+    "no-mixed-spaces-and-tabs": "off",
+    "no-tabs": "off",
+    "quotes": [2, "single", "avoid-escape"],
+    "indent": ["error", 2],
+    "operator-linebreak": "off"
   },
   "extends": ["eslint:recommended", "google"]
 }
